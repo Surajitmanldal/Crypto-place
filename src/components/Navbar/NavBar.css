@@ -1,0 +1,96 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    color: #ddd;
+    border-bottom: 2px solid #3c3c3c;
+    position: sticky;
+    top: 0;
+    background-color: #090056;
+    z-index: 111;
+}
+
+.nav-bar .logo {
+    width: max(12vh, 200px);
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-bar ul li {
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.nav-bar ul li:hover {
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: max(1vw, 12px);
+}
+
+.nav-right select {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+.nav-right select option {
+    background: #090056;
+    color: white;
+}
+
+.nav-right button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgb(196, 27, 243), rgb(39, 11, 142));
+    color: white;
+    font-weight: 500;
+    transition: filter 0.5s ease-in-out;
+}
+
+.nav-right button:hover {
+    filter: brightness(1.2);
+}
+
+/* Responsive */
+@media screen and (max-width:768px) {
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 20px 15px;
+    }
+
+    .nav-bar .logo {
+        width: 150px;
+    }
+
+    .nav-right select {
+        font-size: 20px;
+    }
+
+    .nav-right button {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}

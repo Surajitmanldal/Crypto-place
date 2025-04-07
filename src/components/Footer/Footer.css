@@ -1,0 +1,17 @@
+.footer {
+    background: linear-gradient(135deg, #02182d, #02182d84, #064b90);
+    /* Dark blue gradient */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+}

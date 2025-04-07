@@ -1,0 +1,110 @@
+.coinCenter {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1e1f2f;
+    color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* --- Coin Name Section --- */
+.coin-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.coin-name img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.coin-name p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f4f4f4;
+}
+
+/* --- Coin Chart Section --- */
+.coin-chart {
+    margin-bottom: 2rem;
+    background: #2b2b3d;
+    padding: 1rem;
+    border-radius: 12px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.coin-chart::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+/* --- Coin Info Section --- */
+.coin-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.coin-info ul {
+    background-color: #2c2d3f;
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    list-style: none;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.coin-info ul:hover {
+    transform: translateY(-4px);
+}
+
+.coin-info li:first-child {
+    font-size: 0.95rem;
+    color: #a0a0a0;
+    margin-bottom: 0.5rem;
+}
+
+.coin-info li:last-child {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .coin-info ul {
+        width: 100%;
+    }
+
+    .coin-name p {
+        font-size: 1.5rem;
+    }
+
+    .coin-name {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .coin-chart {
+        padding: 0.5rem;
+    }
+
+    .coin-info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
