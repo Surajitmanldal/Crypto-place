@@ -13,7 +13,7 @@ A sleek and modern **cryptocurrency web application** built with **React**, feat
 ## 📸 Screenshots
 
 
-![Home Page](src/assets/screenshots/home (2).png)  
+![Home Page](src/assets/screenshots/homeCoin.png)  
 ![Coin Details](./src/assets/screenshots/coin.png)
 
 ---
@@ -39,6 +39,13 @@ A sleek and modern **cryptocurrency web application** built with **React**, feat
 
 ---
 
+📫 Contact
+If you have any feedback or suggestions, feel free to reach out!
+
+📧 Email:surajitmandal@gmail.com
+
+💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
+
 ## 🛠️ Project Setup
 
 ```bash
@@ -46,15 +53,5 @@ git clone https://github.com/Surajitmanldal/Car-Rental.git
 cd Car-Rental
 npm install
 npm start
-
-
----
-
-📫 Contact
-If you have any feedback or suggestions, feel free to reach out!
-
-📧 Email:surajitmandal@gmail.com
-
-💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
 
 
