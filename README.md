@@ -50,11 +50,10 @@ npm start
 
 ---
 
-📫 Contact
+##  📫 Contact
 If you have any feedback or suggestions, feel free to reach out!
 
 📧 Email:surajitmandal@gmail.com
 
 💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
-
 
