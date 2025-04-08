@@ -7,13 +7,15 @@ import { RouterProvider } from 'react-router-dom'
 import CoinContextProvider from './context/CoinContext'
 import Home from './Pages/Home/Home.jsx'
 import Coin from './Pages/Coin/Coin.jsx'
+import FormControl from './components/Login/FormControl.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       { path: "/", element: <Home /> },
-      { path: '/coin/:coinId', element: <Coin /> }
+      { path: '/coin/:coinId', element: <Coin /> },
+      { path: '/sign-up', element: <FormControl /> }
     ]
   }
 ])

@@ -44,7 +44,9 @@ const NavBar = () => {
                     <option value="eur">EUR</option>
                     <option value="inr">INR</option>
                 </select>
-                <button>Sign Up <FaArrowTrendUp /></button>
+                <Link to={'/sign-up'} >
+                    <button>Sign Up <FaArrowTrendUp /></button>
+                </Link>
             </div>
         </div>
     )
