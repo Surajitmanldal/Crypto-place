@@ -1,12 +1,60 @@
-# React + Vite
+# 💹 Crypto Info Web App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern **cryptocurrency web application** built with **React**, featuring real-time crypto market data, dynamic routing, responsive design, and elegant animations. Perfect for learning frontend development, API integration, and clean UI architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Site
 
-## Expanding the ESLint configuration
+🌐 [View Live Website](https://your-live-site-url.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+
+![Home Page](src/assets/screenshots/home (2).png)  
+![Coin Details](./src/assets/screenshots/coin.png)
+
+---
+
+## 🌟 Features
+
+- 🪙 Real-time data on top cryptocurrencies
+- 🔍 Coin-specific dynamic routes using React Router
+- 📊 Market rank, price, and other live metrics
+- ⚡ Fast and responsive on all devices
+- 🎨 Clean UI with smooth CSS animations
+- 🔐 Sign-up component via nested routing (optional feature)
+
+---
+
+## 🚀 Tech Stack
+
+- **React** (with hooks and components)
+- **React Router DOM** (v6+)
+- **HTML5 & CSS3**
+- **JavaScript (ES6+)**
+- **Crypto API** (e.g. CoinGecko)
+
+---
+
+## 🛠️ Project Setup
+
+```bash
+git clone https://github.com/Surajitmanldal/Car-Rental.git
+cd Car-Rental
+npm install
+npm start
+
+
+---
+
+📫 Contact
+If you have any feedback or suggestions, feel free to reach out!
+
+📧 Email:surajitmandal@gmail.com
+
+💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
+
+
