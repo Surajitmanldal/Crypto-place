@@ -6,7 +6,7 @@ A sleek and modern **cryptocurrency web application** built with **React**, feat
 
 ## 🔗 Live Site
 
-🌐 [View Live Website](https://your-live-site-url.netlify.app)
+🌐 [View Live Website](https://cryptoplacepricecom.netlify.app/)
 
 ---
 
