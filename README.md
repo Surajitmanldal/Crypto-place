@@ -39,12 +39,12 @@ A sleek and modern **cryptocurrency web application** built with **React**, feat
 
 ---
 
-📫 Contact
-If you have any feedback or suggestions, feel free to reach out!
+## 📫 Contact
+- If you have any feedback or suggestions, feel free to reach out!
 
-📧 Email:surajitmandal@gmail.com
+- 📧 Email:surajitmandal@gmail.com
 
-💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
+- 💼 LinkedInn: https://www.linkedin.com/in/surajit-mandal-b7148a306/
 
 ## 🛠️ Project Setup
 
