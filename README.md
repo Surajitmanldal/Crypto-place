@@ -49,8 +49,8 @@ A sleek and modern **cryptocurrency web application** built with **React**, feat
 ## 🛠️ Project Setup
 
 ```bash
-git clone https://github.com/Surajitmanldal/Car-Rental.git
-cd Car-Rental
+git clone https://github.com/Surajitmanldal/Crypto-place.git
+cd Crypto-place
 npm install
 npm start
 
